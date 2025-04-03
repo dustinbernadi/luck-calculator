@@ -37,6 +37,7 @@ body {
     border-radius: 10px;
     background-color: #ffe285;
     border-color: #ffe285;
+    width: 100%;
 }
 
 #luckBtn {
