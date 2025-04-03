@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #ffe285;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(228, 255, 154);
+    padding: 20px;
+
+}
+
+.text {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#luckInput {
+    padding: 7px;
+    border: 1 solid;
+    border-radius: 10px;
+    background-color: #ffe285;
+    border-color: #ffe285;
+}
+
+#luckBtn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+
+#luckBtn:hover {
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid;
+}
+
+p {
+    font-size: 17px;
+    text-align: cemter;
+    padding-top: 20px;
+}
